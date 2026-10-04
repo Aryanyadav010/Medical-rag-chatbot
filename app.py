@@ -23,7 +23,7 @@ def load_components():
     retriever = docsearch.as_retriever(
         search_type="similarity", search_kwargs={"k": 3}
     )
-    llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0.3)
+    llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0.3)
     return retriever, llm
 
 retriever, llm = load_components()
