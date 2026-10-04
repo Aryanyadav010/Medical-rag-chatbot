@@ -6,8 +6,6 @@ A chatbot that answers questions using only the content of medical documents, bu
 
 > ⚠️ The app may take a few seconds to wake up if it has been idle.
 
-![App screenshot]([screenshot.png](https://github.com/Aryanyadav010/Medical-rag-chatbot/blob/main/Screenshot%202026-10-04%20151855.png))
-
 ## How it works
 
 1. **Load:** PDFs are read page by page.
