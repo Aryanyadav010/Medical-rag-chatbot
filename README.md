@@ -58,10 +58,6 @@ A chatbot that answers questions using only the content of medical documents, bu
    streamlit run app.py
 ```
 
-## Data
-
-The knowledge base is built from [name of the medical book] and [name of your group's PDF].
-
 ## Limitations
 
 - Answers are only as good as the source documents.
